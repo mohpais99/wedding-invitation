@@ -18,8 +18,8 @@ class Layout extends Component {
         return (
             <>
                 <Welcome />
-                <DatePage {...this.state} />
                 <HadistPage {...this.state} />
+                <DatePage {...this.state} />
             </>
         )
     }
