@@ -1,5 +1,9 @@
+.profil {
+    width: 100%;
+}
+
 .profil h1 {
-    font-size: 52px;
+    font-size: 38px;
     border-bottom: 2px solid;
     margin-bottom: 0;
 }

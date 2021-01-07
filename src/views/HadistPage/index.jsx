@@ -29,7 +29,7 @@ function HadistPage(props) {
                                                 <div className="row">
                                                     <div className="col-md-4 col-sm-12 d-flex align-items-center">
                                                         <div className="profil">
-                                                            <h1 className="font-almendra">Ani Riyani</h1>
+                                                            <h1 className="font-almendra">Ani Riyani, S.E.</h1>
                                                             <span className="font-dekko">Putri pertama dari Bapak Riyadi & Ibu Farikha</span>
                                                         </div>
                                                     </div>
@@ -38,7 +38,7 @@ function HadistPage(props) {
                                                     </div>
                                                     <div className="col-md-4 col-sm-12 d-flex align-items-center">
                                                         <div className="profil">
-                                                            <h1 className="font-almendra">Muh Faiz</h1>
+                                                            <h1 className="font-almendra">Muh Faiz, S.Kom.</h1>
                                                             <span className="font-dekko">Putra kedua dari Bpk H. Mursid & Ibu Hj. Rumiyati</span>
                                                         </div>
                                                     </div>
