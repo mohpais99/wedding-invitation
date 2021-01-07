@@ -38,8 +38,8 @@ function HadistPage(props) {
                                                     </div>
                                                     <div className="col-md-4 col-sm-12 d-flex align-items-center">
                                                         <div className="profil">
-                                                            <h1 className="font-almendra">Moh Pais</h1>
-                                                            <span className="font-dekko">Putri pertama dari Bapak Riyadi & Ibu Farikha</span>
+                                                            <h1 className="font-almendra">Muh Faiz</h1>
+                                                            <span className="font-dekko">Putra kedua dari Bpk H. Mursid & Ibu Hj. Rumiyati</span>
                                                         </div>
                                                     </div>
                                                 </div>

@@ -21,19 +21,19 @@ function DatePage(props) {
                                             <div className="col 12">
                                                 <div className="row subtitle">
                                                     <div className="col-12 font-almendra">
-                                                        <h1>Ani Riyani, S.E</h1>
+                                                        <h1>Ani Riyani, S.E.</h1>
                                                     </div>
                                                     <div className="col-12 font-alex-brush">
                                                         <h2>and</h2>
                                                     </div>
                                                     <div className="col-12 font-almendra">
-                                                        <h1>Moh Pais, S.Kom</h1>
+                                                        <h1>Muh Faiz, S.Kom.</h1>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-12 footer font-bad-script text-center mt-5">
-                                                <h4>April 4, 2020</h4>
-                                                <h4>Grogol, Jakarta Barat</h4>
+                                                <h4>April 04, 2020</h4>
+                                                <h4>at Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol Petamburan</h4>
                                             </div>
                                         </div>
                                     </div>
