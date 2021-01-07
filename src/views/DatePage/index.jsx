@@ -35,7 +35,7 @@ function DatePage(props) {
                                                 <div className="row justify-content-center">
                                                     <div className="col-md-6 col-sm-12">
                                                         <h4 className="mb-3">
-                                                            <b>April 04th, 2020</b>
+                                                            <b>4th of April, 2020</b>
                                                         </h4>
                                                         <h4>at Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol) Petamburan</h4>
                                                     </div>
