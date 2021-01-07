@@ -1,8 +1,6 @@
 import React from 'react';
 import bg13 from 'assets/img/bg-13.jpeg';
 import bgresponsive from 'assets/img/cc.jpeg';
-// import border from 'assets/img/border-img.png';
-// import me from 'assets/img/me.png';
 import me from 'assets/img/avatar.png';
 import hadist from 'assets/img/hadist.png';
 import './style.css';
@@ -20,7 +18,8 @@ function HadistPage(props) {
                                         <div className="row justify-content-center">
                                             <div className="col-lg-6 col-md-6 col-sm-12">
                                                 <img className="w-100" src={hadist} alt="bingkai"/>
-                                                <h4 className="font-dekko font-size-18" style={{marginTop: "-15px"}}>And all things We created in pairs so that you would remember the greatness of Allah. - (Q.S Adz-Dzariyat: 49)</h4>
+                                                <h4 className="font-dekko font-size-18" style={{marginTop: "-15px"}}>
+                                                    Dan segala sesuatu Kami ciptakan berpasang-pasangan sehingga kamu akan mengingat kebesaran Allah. - (Q.S Adz-Dzariyat: 49)</h4>
                                             </div>
                                         </div>
                                     </div>
