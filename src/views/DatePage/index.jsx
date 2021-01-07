@@ -32,8 +32,15 @@ function DatePage(props) {
                                                 </div>
                                             </div>
                                             <div className="col-12 footer font-bad-script text-center mt-5">
-                                                <h4>April 04, 2020</h4>
-                                                <h4>at Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol Petamburan</h4>
+                                                <div className="row justify-content-center">
+                                                    <div className="col-md-6 col-sm-12">
+                                                        <h4 className="mb-3">
+                                                            <b>April 04th, 2020</b>
+                                                        </h4>
+                                                        <h4>at Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol) Petamburan</h4>
+                                                        <h4></h4>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
