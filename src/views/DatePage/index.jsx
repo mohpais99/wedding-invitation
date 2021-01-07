@@ -24,7 +24,7 @@ function DatePage(props) {
                                                         <h1>Ani Riyani, S.E.</h1>
                                                     </div>
                                                     <div className="col-12 font-alex-brush">
-                                                        <h2>and</h2>
+                                                        <h2>&</h2>
                                                     </div>
                                                     <div className="col-12 font-almendra">
                                                         <h1>Muh Faiz, S.Kom.</h1>
