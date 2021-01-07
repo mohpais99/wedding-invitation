@@ -1,0 +1,31 @@
+.std {
+    background: rgba(255, 255, 255, 0.4) !important;
+    min-height: 65vh !important;
+    border: 5px solid #e68a00 !important;
+}
+
+.std .title h4{
+    display: block;
+    font-family: Alex Brush;
+    font-size: 40px !important;
+}
+
+.std .title span{
+    margin-top: -15px;
+    display: block;
+    font-family: Alex Brush;
+    font-size: 28px !important;
+}
+
+.std .subtitle h1 {
+    margin-bottom: 0;
+    font-size: 94px;
+}
+
+.std .subtitle h2 {
+    margin-bottom: 0;
+}
+
+.std .footer {
+    font-size: 38px;
+}

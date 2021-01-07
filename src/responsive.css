@@ -1,0 +1,70 @@
+@media only screen and (max-width: 349px) {
+    .frame {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 349px) {
+    .banner {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .countdown {
+        max-width: 80px;
+        width: 100%;
+        max-height: 80px;
+        height: 100%;
+        color: #fff;
+        font-family: Dekko;
+    }
+    
+    .countdown h6 {
+        margin-top: -10px;
+        margin-bottom: 0;
+        font-size: 36px;
+    }
+    
+    .countdown span {
+        font-size: 16px;
+    }
+
+    .frame {
+        max-width: 130px;
+        max-height: 130px;
+    }
+
+    .std {
+        min-height: 50vh !important;
+    }
+
+    .std .title h4 {
+        font-size: 32px !important;
+    }
+
+    .std .title span {
+        font-size: 24px !important;
+    }
+
+    .std .subtitle h1 {
+        font-size: 48px !important;
+    }
+
+    .std .subtitle h2 {
+        font-size: 1.5em !important;
+    }
+
+    .std .footer h4{
+        margin-bottom: 1;
+        font-size: 16px !important;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1100px) {
+    .frame {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
