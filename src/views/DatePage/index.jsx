@@ -38,7 +38,6 @@ function DatePage(props) {
                                                             <b>April 04th, 2020</b>
                                                         </h4>
                                                         <h4>at Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol) Petamburan</h4>
-                                                        <h4></h4>
                                                     </div>
                                                 </div>
                                             </div>
