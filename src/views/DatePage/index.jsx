@@ -31,14 +31,14 @@ function DatePage(props) {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-12 footer font-alex-brush text-center mt-5">
+                                            <div className="col-12 footer font-dekko text-center mt-5">
                                                 <div className="row justify-content-center">
                                                     <div className="col-md-6 col-sm-12">
-                                                        <h4 className="mb-3">
+                                                        <h4 className="mb-0">
                                                             Sunday, 4th of April, 2021
                                                         </h4>
                                                         <h4 className="mb-3">11 a.m. until 8 p.m.</h4>
-                                                        <h4>at Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol Petamburan)</h4>
+                                                        <h4>Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol Petamburan)</h4>
                                                     </div>
                                                 </div>
                                             </div>
