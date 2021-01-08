@@ -3,6 +3,7 @@ import { HadistPage } from 'views';
 import { Welcome, DatePage } from 'views';
 import music from 'assets/music/ILY.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import EventPage from 'views/EventPage';
 
 
 class Layout extends Component {
@@ -53,7 +54,8 @@ class Layout extends Component {
                 </audio> */}
                 <Welcome />
                 <HadistPage {...this.state} />
-                <DatePage {...this.state} />
+                {/* <DatePage {...this.state} /> */}
+                <EventPage {...this.state} />
 
                 <div onClick={this.playmusic} className="play-box">
                     <div className="play-btn text-center">

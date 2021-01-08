@@ -14,17 +14,32 @@ function HadistPage(props) {
                         <div className="card std" style={{minHeight: "35vh"}}>
                             <div className="card-body d-flex justify-content-center">
                                 <div className="row">
-                                    <div className="col-12">
+                                    <div className="col-12 mb-2">
+                                        <div className="card bg-transparent" style={{borderRadius: "10px"}}>
+                                            <div className="card-body">
+                                                <div className="row justify-content-center">
+                                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                                        <h4 className="font-dekko font-size-18 mb-0">
+                                                            Bismillahirrahmanirrahim
+                                                        </h4>
+                                                        <img className="w-100" src={hadist} alt="bingkai"/>
+                                                        <h4 className="font-dekko font-size-14 mb-0" style={{marginTop: "-12px"}}>
+                                                            Dan segala sesuatu Kami ciptakan berpasang-pasangan sehingga kamu akan mengingat kebesaran Allah. - (Q.S Adz-Dzariyat: 49)
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 text-center mb-2">
                                         <div className="row justify-content-center">
-                                            <div className="col-lg-6 col-md-6 col-sm-12">
-                                                <img className="w-100" src={hadist} alt="bingkai"/>
-                                                <h4 className="font-dekko font-size-18" style={{marginTop: "-15px"}}>
-                                                    Dan segala sesuatu Kami ciptakan berpasang-pasangan sehingga kamu akan mengingat kebesaran Allah. - (Q.S Adz-Dzariyat: 49)</h4>
+                                            <div className="col-md-8 col-sm-12">
+                                                <p className="font-dekko font-size-16 mb-0">Dengan rahmat allah yang maha kuasa, kami mengundang bapak/ibu di tempat untuk datang dalam acara pernikahan</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-12 text-center">
-                                        <div className="row py-4">
+                                        <div className="row">
                                             <div className="col-12">
                                                 <div className="row">
                                                     <div className="col-md-4 col-sm-12 d-flex align-items-center">
@@ -34,7 +49,7 @@ function HadistPage(props) {
                                                         </div>
                                                     </div>
                                                     <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
-                                                        <img className="w-100" src={me} alt="bingkai"/>
+                                                        <img className="w-80" src={me} alt="bingkai"/>
                                                     </div>
                                                     <div className="col-md-4 col-sm-12 d-flex align-items-center">
                                                         <div className="profil">
@@ -46,7 +61,7 @@ function HadistPage(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 text-center d-none d-lg-block">
+                                    <div className="col-12 text-center d-none d-md-block">
                                         <h2 className="font-alex-brush">Please join us ...</h2>
                                     </div>
                                 </div>
