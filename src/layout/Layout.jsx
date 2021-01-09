@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { HadistPage } from 'views';
-import { Welcome, DatePage } from 'views';
+import { Welcome, HadistPage } from 'views';
 import music from 'assets/music/ILY.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import EventPage from 'views/EventPage';
@@ -31,30 +30,14 @@ class Layout extends Component {
         })
     }
 
-    // playmusic() {
-    //     const audioEl = document.getElementsByClassName("audio-element")[0]
-    //     const status = this.state.play
-    //     if (status) {
-    //         this.setState({play: false})
-    //         audioEl.pause()
-    //     } else {
-    //         this.setState({play: true})
-    //         audioEl.play()
-    //     }
-    // }
-
     updateDimensions() {
         this.setState({ width: window.innerWidth });
     }
     render() {
         return (
             <div className="wrapper">
-                {/* <audio className="audio-element">
-                    <source src={music} />
-                </audio> */}
                 <Welcome />
                 <HadistPage {...this.state} />
-                {/* <DatePage {...this.state} /> */}
                 <EventPage {...this.state} />
 
                 <div onClick={this.playmusic} className="play-box">
@@ -67,19 +50,6 @@ class Layout extends Component {
                         }
                     </div>
                 </div>
-
-                {/* <button 
-                    onClick={this.playmusic} 
-                    className="btn btn-circle btn-lg play text-white position-fixed text-center">
-                    {
-                        this.state.play ?
-                            <FontAwesomeIcon icon={["fa", "play"]} />
-                            // <ion-icon name="pause-outline"></ion-icon>
-                        :
-                            <FontAwesomeIcon icon={["fa", "pause"]} />
-                            // <ion-icon name="play-outline"></ion-icon>
-                    }
-                </button> */}
             </div>
         )
     }
