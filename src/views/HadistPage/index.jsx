@@ -4,7 +4,7 @@ import bgresponsive from 'assets/img/cc.jpeg';
 import me from 'assets/img/avatar.png';
 import hadist from 'assets/img/hadist.png';
 import './style.css';
-
+// AIzaSyBP6FUaqoXduXsB-0OLpameYPIocrxdQfk
 function HadistPage(props) {
     return (
         <div id="hadistpage" className="section d-flex align-items-center banner--img" style={{backgroundImage: `url(${props.width > 769 ? bg13 : bgresponsive})`}}>

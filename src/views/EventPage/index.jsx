@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './style.css';
 
 function EventPage(props) {
+    const map = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8056733164512!2d106.7773509148814!3d-6.156775595542422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6366b322531%3A0x639b56a812a8acd5!2sMasjid%20Raya%20Al%20Amanah!5e0!3m2!1sid!2sid!4v1610193354459!5m2!1sid!2sid'
     return (
         <div id="datepage" className="section d-flex align-items-center banner--img" style={{backgroundImage: `url(${props.width > 769 ? bg13 : bgresponsive})`}}>
             <div className="container-fluid">
@@ -26,8 +27,8 @@ function EventPage(props) {
                                                 <span className="font-dekko">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara(i) untuk menghadiri Resepsi Pernikahan kami</span>
                                             </div>
                                             <div className="col-12 font-dekko">
-                                                <div className="row">
-                                                    <div className="col-md-6 col-sm-12">
+                                                <div className="row justify-content-center">
+                                                    <div className="col-md-8 col-sm-12">
                                                         <div className="card bg-transparent" style={{borderRadius: "10px"}}>
                                                             <div className="card-body">
                                                                 <div className="row">
@@ -65,11 +66,19 @@ function EventPage(props) {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-md-6 col-sm-12 mt-2">
-                                                        <div className="card bg-transparent" style={{borderRadius: "10px"}}>
-                                                            <div className="card-body">
-                                                                <h1>Di sini map</h1>
-                                                            </div>
+                                                </div>
+                                                <div className="row mt-3">
+                                                    <div className="col-12">
+                                                        <div className="card bg-transparent" style={{border: "none"}}>
+                                                            <iframe 
+                                                                className="w-100"
+                                                                title="location"
+                                                                height="300"
+                                                                src={map} 
+                                                                frameBorder="0"
+                                                                allowFullScreen="" 
+                                                                aria-hidden="false" 
+                                                                tabIndex="0"></iframe>
                                                         </div>
                                                     </div>
                                                 </div>
