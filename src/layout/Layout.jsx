@@ -1,8 +1,6 @@
 import React, { Component, Suspense, lazy } from 'react';
-// import { Welcome, HadistPage, EventPage } from 'views';
-import music from 'assets/music/ILY.mp3';
+import music from 'assets/music/MZ.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import EventPage from 'views/EventPage';
 import { Preload } from 'components';
 
 const Welcome = lazy(() => import('views/Welcome'))
@@ -15,7 +13,6 @@ class Layout extends Component {
         this.state = {
             width: window.innerWidth,
             play: false,
-            
         };
         this.audio = new Audio(music)
     }
