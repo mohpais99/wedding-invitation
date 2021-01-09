@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
-import { Welcome, HadistPage } from 'views';
-import music from 'assets/music/MZ.mp3';
+import React, { Component, Suspense, lazy } from 'react';
+// import { Welcome, HadistPage, EventPage } from 'views';
+import music from 'assets/music/ILY.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import EventPage from 'views/EventPage';
+// import EventPage from 'views/EventPage';
+import { Preload } from 'components';
 
+const Welcome = lazy(() => import('views/Welcome'))
+const HadistPage = lazy(() => import('views/HadistPage'))
+const EventPage = lazy(() => import('views/EventPage'))
 
 class Layout extends Component {
     constructor(props) {
@@ -35,22 +39,23 @@ class Layout extends Component {
     }
     render() {
         return (
-            <div className="wrapper">
-                <Welcome />
-                <HadistPage {...this.state} />
-                <EventPage {...this.state} />
-
-                <div onClick={this.playmusic} className="play-box">
-                    <div className="play-btn text-center">
-                        {
-                            this.state.play ?
-                                <FontAwesomeIcon icon={["fa", "pause"]} />
-                            :
-                                <FontAwesomeIcon icon={["fa", "play"]} />
-                        }
-                    </div>
+            <Suspense fallback={<Preload />}>
+                <div className="wrapper">
+                        <Welcome />
+                        <HadistPage {...this.state} />
+                        <EventPage {...this.state} />
+                        <div onClick={this.playmusic} className="play-box">
+                            <div className="play-btn text-center">
+                                {
+                                    this.state.play ?
+                                        <FontAwesomeIcon icon={["fa", "pause"]} />
+                                    :
+                                        <FontAwesomeIcon icon={["fa", "play"]} />
+                                }
+                            </div>
+                        </div>
                 </div>
-            </div>
+            </Suspense>
         )
     }
 }

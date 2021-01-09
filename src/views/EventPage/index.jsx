@@ -58,7 +58,7 @@ function EventPage(props) {
                                                                                 <img width="17" src={place} alt="mosque"/>
                                                                             </div>
                                                                             <div className="col-10 d-flex align-items-center text-left py-1">
-                                                                                <span>Aula Masjid Raya Al-Amanah</span>
+                                                                                <span>Auditorium Masjid Raya Al-Amanah</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
