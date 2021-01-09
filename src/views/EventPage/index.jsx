@@ -2,7 +2,7 @@ import React from 'react';
 import bg13 from 'assets/img/bg-13.jpeg';
 import bgresponsive from 'assets/img/cc.jpeg';
 import std from 'assets/img/wedding.png';
-// import ring from 'assets/img/logo/rings.png';
+import place from 'assets/img/mosque_1.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './style.css';
 
@@ -28,7 +28,7 @@ function EventPage(props) {
                                             </div>
                                             <div className="col-12 font-dekko">
                                                 <div className="row justify-content-center">
-                                                    <div className="col-md-8 col-sm-12">
+                                                    <div className="col-md-9 col-sm-12">
                                                         <div className="card bg-transparent" style={{borderRadius: "10px"}}>
                                                             <div className="card-body">
                                                                 <div className="row">
@@ -55,10 +55,20 @@ function EventPage(props) {
                                                                     <div className="col-12">
                                                                         <div className="row information-event">
                                                                             <div className="col-2 py-1">
+                                                                                <img width="17" src={place} alt="mosque"/>
+                                                                            </div>
+                                                                            <div className="col-10 d-flex align-items-center text-left py-1">
+                                                                                <span>Aula Masjid Raya Al-Amanah</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="col-12">
+                                                                        <div className="row information-event">
+                                                                            <div className="col-2 py-1">
                                                                                 <FontAwesomeIcon icon={["fa", "map-marker"]} />
                                                                             </div>
                                                                             <div className="col-10 d-flex align-items-center text-left py-1">
-                                                                                <span>Komplek Pakuwon (Jl. Jelambar Timur RT 014 RW 009 Kel. Jelambar Baru Kec Grogol Petamburan)</span>
+                                                                                <span>Jl. Indra Loka I No.55, RT.8/RW.10, Wijaya Kusuma, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -67,8 +77,8 @@ function EventPage(props) {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="row mt-3">
-                                                    <div className="col-12">
+                                                <div className="row justify-content-center mt-3">
+                                                    <div className="col-md-9 col-sm-12">
                                                         <div className="card bg-transparent" style={{border: "none"}}>
                                                             <iframe 
                                                                 className="w-100"

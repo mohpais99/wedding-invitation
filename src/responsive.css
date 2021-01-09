@@ -76,6 +76,10 @@
         font-size: 18px;
     }
 
+    .description {
+        font-size: 14px;
+    }
+
     .cover {
         width: 120px;
         height: 120px;
@@ -83,6 +87,10 @@
 
     .prolog {
         margin-top: -25px;
+    }
+
+    .information-event img {
+        width: 13px;
     }
 
     .prolog span {

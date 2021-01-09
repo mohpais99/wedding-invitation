@@ -34,7 +34,7 @@ function HadistPage(props) {
                                     <div className="col-12 text-center mb-2">
                                         <div className="row justify-content-center">
                                             <div className="col-md-8 col-sm-12">
-                                                <p className="font-dekko font-size-16 mb-0">Dengan rahmat allah yang maha kuasa, kami mengundang bapak/ibu di tempat untuk datang dalam acara pernikahan</p>
+                                                <p className="font-dekko description mb-0">Ya Allah semoga ridho-Mu tercurah mengiringi putra-putri kami</p>
                                             </div>
                                         </div>
                                     </div>
@@ -61,9 +61,9 @@ function HadistPage(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 text-center d-none d-md-block">
+                                    {/* <div className="col-12 text-center d-none d-md-block">
                                         <h2 className="font-alex-brush">Please join us ...</h2>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Welcome, HadistPage } from 'views';
-import music from 'assets/music/ILY.mp3';
+import music from 'assets/music/MZ.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import EventPage from 'views/EventPage';
 
