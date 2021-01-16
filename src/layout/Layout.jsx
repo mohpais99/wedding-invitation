@@ -6,6 +6,7 @@ import { Preload } from 'components';
 const Welcome = lazy(() => import('views/Welcome'))
 const HadistPage = lazy(() => import('views/HadistPage'))
 const EventPage = lazy(() => import('views/EventPage'))
+const GalleryPage = lazy(() => import('views/GalleryPage'))
 
 class Layout extends Component {
     constructor(props) {
@@ -41,6 +42,7 @@ class Layout extends Component {
                         <Welcome />
                         <HadistPage {...this.state} />
                         <EventPage {...this.state} />
+                        <GalleryPage {...this.state} />
                         <div onClick={this.playmusic} className="play-box">
                             <div className="play-btn text-center">
                                 {

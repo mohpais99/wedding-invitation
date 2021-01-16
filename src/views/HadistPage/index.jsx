@@ -15,8 +15,8 @@ function HadistPage(props) {
                             <div className="card-body d-flex justify-content-center">
                                 <div className="row">
                                     <div className="col-12 mb-2">
-                                        <div className="card bg-transparent" style={{borderRadius: "10px"}}>
-                                            <div className="card-body">
+                                        <div className="card " style={{borderRadius: "10px"}}>
+                                            <div className="card-body bg-transparent">
                                                 <div className="row justify-content-center">
                                                     <div className="col-lg-6 col-md-6 col-sm-12">
                                                         <h4 className="font-dekko font-size-18 mb-0">
@@ -61,9 +61,9 @@ function HadistPage(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <div className="col-12 text-center d-none d-md-block">
+                                    <div className="col-12 text-center d-none d-md-block">
                                         <h2 className="font-alex-brush">Please join us ...</h2>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>

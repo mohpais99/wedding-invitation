@@ -1,11 +1,11 @@
 import Welcome from './Welcome';
-import DatePage from './DatePage';
+import GalleryPage from './GalleryPage';
 import HadistPage from './HadistPage';
 import EventPage from './EventPage';
 
 export {
     Welcome,
-    DatePage,
+    GalleryPage,
     HadistPage,
     EventPage
 }
