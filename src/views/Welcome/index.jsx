@@ -12,7 +12,7 @@ function Welcome() {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdown = new Date('April 04, 2021 11:00:00').getTime();
+        const countdown = new Date('Maret 07, 2021 11:00:00').getTime();
         interval = setInterval(() => {
             const now = new Date().getTime();
             const distance = countdown - now;
