@@ -1,9 +1,9 @@
 import React from 'react'
 import bg13 from 'assets/img/bg-13.jpeg';
 import bgresponsive from 'assets/img/cc.jpeg';
-import gallery1 from 'assets/img/gallery-1.jpg';
-import gallery2 from 'assets/img/gallery-2.jpg';
-import gallery3 from 'assets/img/gallery-3.jpg';
+import gallery4 from 'assets/img/gallery-4.jpg';
+import gallery5 from 'assets/img/gallery-5.jpg';
+import gallery6 from 'assets/img/gallery-6.jpg';
 
 function GalleryPage(props) {
     return (
@@ -26,13 +26,13 @@ function GalleryPage(props) {
                                                             <div className="card-body">
                                                                 <div className="row">
                                                                     <div className="col-md-4 mb-1 gallery col-sm-12">
-                                                                        <img className="w-100" src={gallery1} alt="gallery-1" />
+                                                                        <img className="w-100" src={gallery4} alt="gallery-1" />
                                                                     </div>
                                                                     <div className="col-md-4 mb-1 gallery col-sm-12">
-                                                                        <img className="w-100" src={gallery2} alt="gallery-1" />
+                                                                        <img className="w-100" src={gallery5} alt="gallery-1" />
                                                                     </div>
                                                                     <div className="col-md-4 mb-1 gallery col-sm-12">
-                                                                        <img className="w-100" src={gallery3} alt="gallery-1" />
+                                                                        <img className="w-100" src={gallery6} alt="gallery-1" />
                                                                     </div>
                                                                 </div>
                                                             </div>

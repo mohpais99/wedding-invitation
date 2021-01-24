@@ -38,7 +38,7 @@ function EventPage(props) {
                                                                                 <FontAwesomeIcon icon={["fa", "calendar"]} />
                                                                             </div>
                                                                             <div className="col-10 d-flex align-items-center text-left py-1">
-                                                                                <span>Sunday, 4th of April, 2021</span>
+                                                                                <span>Sunday, 7th of March, 2021</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -48,7 +48,7 @@ function EventPage(props) {
                                                                                 <FontAwesomeIcon icon={["fa", "clock"]} />
                                                                             </div>
                                                                             <div className="col-10 d-flex align-items-center text-left py-1">
-                                                                                <span>11 a.m. until 8 p.m.</span>
+                                                                                <span>11 a.m. until 2 p.m.</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
