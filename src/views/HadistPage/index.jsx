@@ -1,7 +1,7 @@
 import React from 'react';
 import bg13 from 'assets/img/bg-13.jpeg';
 import bgresponsive from 'assets/img/cc.jpeg';
-import me from 'assets/img/avatar.png';
+import me from 'assets/img/main.png';
 import hadist from 'assets/img/hadist.png';
 import './style.css';
 // AIzaSyBP6FUaqoXduXsB-0OLpameYPIocrxdQfk

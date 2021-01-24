@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import banner from 'assets/img/badge_fix.png';
+import banner from 'assets/img/Ani&Faiz.png';
 import bg3 from 'assets/img/bg-3.jpeg';
 import { Frame } from 'components';
 import { Link } from 'react-router-dom';
