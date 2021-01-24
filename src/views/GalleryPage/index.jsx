@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import bg13 from 'assets/img/bg-13.jpeg';
 import bgresponsive from 'assets/img/cc.jpeg';
 import gallery4 from 'assets/img/gallery-4.jpg';
@@ -26,13 +27,28 @@ function GalleryPage(props) {
                                                             <div className="card-body">
                                                                 <div className="row">
                                                                     <div className="col-md-4 mb-1 gallery col-sm-12">
-                                                                        <img className="w-100" src={gallery4} alt="gallery-1" />
+                                                                        <LazyLoadImage
+                                                                            src={gallery4} 
+                                                                            alt="gallery-4"
+                                                                            effect="blur"
+                                                                            className="w-100" />
+                                                                        {/* <img className="w-100" src={gallery4} alt="gallery-1" /> */}
                                                                     </div>
                                                                     <div className="col-md-4 mb-1 gallery col-sm-12">
-                                                                        <img className="w-100" src={gallery5} alt="gallery-1" />
+                                                                        <LazyLoadImage
+                                                                            src={gallery5} 
+                                                                            alt="gallery-5"
+                                                                            effect="blur"
+                                                                            className="w-100" />
+                                                                        {/* <img className="w-100" src={gallery5} alt="gallery-1" /> */}
                                                                     </div>
                                                                     <div className="col-md-4 mb-1 gallery col-sm-12">
-                                                                        <img className="w-100" src={gallery6} alt="gallery-1" />
+                                                                        <LazyLoadImage
+                                                                            src={gallery6} 
+                                                                            alt="gallery-6"
+                                                                            effect="blur"
+                                                                            className="w-100" />
+                                                                        {/* <img className="w-100" src={gallery6} alt="gallery-1" /> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
