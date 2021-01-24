@@ -4,6 +4,7 @@ import bgresponsive from 'assets/img/cc.jpeg';
 import me from 'assets/img/main.png';
 import hadist from 'assets/img/hadist.png';
 import './style.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 // AIzaSyBP6FUaqoXduXsB-0OLpameYPIocrxdQfk
 function HadistPage(props) {
     return (
@@ -49,7 +50,11 @@ function HadistPage(props) {
                                                         </div>
                                                     </div>
                                                     <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
-                                                        <img className="w-80" src={me} alt="bingkai"/>
+                                                        {/* <img className="w-80" src={me} alt="bingkai"/> */}
+                                                        <LazyLoadImage
+                                                            src={me} 
+                                                            alt="bingkai"
+                                                            className="w-80" />
                                                     </div>
                                                     <div className="col-md-4 col-sm-12 d-flex align-items-center">
                                                         <div className="profil">

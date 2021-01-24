@@ -3,6 +3,7 @@ import banner from 'assets/img/Ani&Faiz.png';
 import bg3 from 'assets/img/bg-3.jpeg';
 import { Frame } from 'components';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Welcome() {
     const [timerDays, setTimerDays] = useState('00')
@@ -49,7 +50,11 @@ function Welcome() {
                     <div className="col-md-6 mx-auto py-2 text-center top-min">
                         <div className="row">
                             <div className="col-12">
-                                <img className="banner" src={banner} alt="banner-logo" />
+                                {/* <img className="banner" src={banner} alt="banner-logo" /> */}
+                                <LazyLoadImage
+                                    src={banner} 
+                                    alt="banner-logo"
+                                    className="banner" />
                             </div>
                             <div className="col-12 mt-5">
                                 <div className="container">
