@@ -9,7 +9,8 @@ function ThanksPage(props) {
                     <div className="col-lg-6 col-md-6 col-sm-6 mx-auto py-2 text-center">
                         <div className="card">
                             <div className="card-body border">
-                                <h4>Demikian undangan ini kami sampaikan, kami berharap anda sekeluarga dapat menghadiri acara pernikahan kami!! :)</h4>
+                                <h4>Demikian undangan ini kami sampaikan, kami harap Bapak/Ibu/Saudara(i) dapat menghadiri acara pernikahan kami!!</h4>
+                                <h4>Terima Kasih :)</h4>
                             </div>
                         </div>
                     </div>
