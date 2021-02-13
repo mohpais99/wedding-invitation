@@ -2,6 +2,7 @@ import React, { Component, Suspense, lazy } from 'react';
 import music from 'assets/music/MZ.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Preload } from 'components';
+import { ThanksPage } from 'views';
 
 const Welcome = lazy(() => import('views/Welcome'))
 const HadistPage = lazy(() => import('views/HadistPage'))
@@ -43,6 +44,7 @@ class Layout extends Component {
                         <HadistPage {...this.state} />
                         <EventPage {...this.state} />
                         <GalleryPage {...this.state} />
+                        <ThanksPage {...this.state} />
                         <div onClick={this.playmusic} className="play-box">
                             <div className="play-btn text-center">
                                 {

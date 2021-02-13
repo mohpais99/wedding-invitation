@@ -24,13 +24,71 @@ function EventPage(props) {
                                                 </div>
                                             </div>
                                             <div className="col-md-8 col-sm-12 mb-2 prolog-event">
-                                                <span className="font-dekko">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara(i) untuk menghadiri Resepsi Pernikahan kami</span>
+                                                <span className="font-dekko">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara(i) untuk menghadiri:</span>
                                             </div>
                                             <div className="col-12 font-dekko">
                                                 <div className="row justify-content-center">
+                                                    <div className="col-md-9 col-sm-12 mb-2">
+                                                        <div className="card bg-transparent" style={{borderRadius: "10px"}}>
+                                                            <div className="card-body">
+                                                                <div className="row">
+                                                                    <div className="col-12">
+                                                                        <h3>Akad Nikah</h3>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="row">
+                                                                    <div className="col-12">
+                                                                        <div className="row information-event">
+                                                                            <div className="col-2 py-1">
+                                                                                <FontAwesomeIcon icon={["fa", "calendar"]} />
+                                                                            </div>
+                                                                            <div className="col-10 d-flex align-items-center text-left py-1">
+                                                                                <span>Sunday, 7th of March, 2021</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="col-12">
+                                                                        <div className="row information-event">
+                                                                            <div className="col-2 py-1">
+                                                                                <FontAwesomeIcon icon={["fa", "clock"]} />
+                                                                            </div>
+                                                                            <div className="col-10 d-flex align-items-center text-left py-1">
+                                                                                <span>9 a.m.</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="col-12">
+                                                                        <div className="row information-event">
+                                                                            <div className="col-2 py-1">
+                                                                                <img width="17" src={place} alt="mosque"/>
+                                                                            </div>
+                                                                            <div className="col-10 d-flex align-items-center text-left py-1">
+                                                                                <span>Masjid Raya Al-Amanah</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="col-12">
+                                                                        <div className="row information-event">
+                                                                            <div className="col-2 py-1">
+                                                                                <FontAwesomeIcon icon={["fa", "map-marker"]} />
+                                                                            </div>
+                                                                            <div className="col-10 d-flex align-items-center text-left py-1">
+                                                                                <span>Jl. Indra Loka I No.55, RT.8/RW.10, Wijaya Kusuma, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div className="col-md-9 col-sm-12">
                                                         <div className="card bg-transparent" style={{borderRadius: "10px"}}>
                                                             <div className="card-body">
+                                                                <div className="row">
+                                                                    <div className="col-12">
+                                                                        <h3>Resepsi</h3>
+                                                                    </div>
+                                                                </div>
                                                                 <div className="row">
                                                                     <div className="col-12">
                                                                         <div className="row information-event">
@@ -77,6 +135,7 @@ function EventPage(props) {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                
                                                 <div className="row justify-content-center mt-3">
                                                     <div className="col-md-9 col-sm-12">
                                                         <div className="card bg-transparent" style={{border: "none"}}>
